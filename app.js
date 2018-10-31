@@ -39,9 +39,9 @@ function onReady() {
     //empty the input
     newToDoText.value = '';
 
-    deleteButton.addEventListener = function() {
+    deleteButton.addEventListener ('click', function() {
       newLi.parentNode.removeChild(newLi);
-    }
+    })
   });
 }
 
