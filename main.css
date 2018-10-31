@@ -1,7 +1,106 @@
+/**** SF DISPLAY FONT-FACE STYLES ****/
+/** Bold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url(../fonts/SF-UI-Display-Bold.otf);
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url(../fonts/SF-UI-Display-Semibold.otf);
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url(../fonts/SF-UI-Display-Medium.otf);
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url(../fonts/SF-UI-Display-Regular.otf);
+}
+
+/** Thin */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 300;
+  src: url(../fonts/SF-UI-Display-Thin.otf);
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 200;
+  src: url(../fonts/SF-UI-Display-Light.otf);
+}
+
+/** Ultralight */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 100;
+  src: url(../fonts/SF-UI-Display-Ultralight.otf);
+}
+
+
+
+/**** SF TEXT FONT-FACE STYLES ****/
+/** Light */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  src: url(../fonts/SF-UI-Text-Light.otf);
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  src: url(../fonts/SF-UI-Text-Medium.otf);
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: url(../fonts/SF-UI-Text-Regular.otf);
+}
+
+
+/** Semibold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  src: url(../fonts/SF-UI-Text-Semibold.otf);
+}
+
+/** Bold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  src: url(../fonts/SF-UI-Text-Bold.otf);
+}
+
+
+body {
+  font-family: "SF Text", Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 h1 {
   font-weight: bold;
   font-size: 2em;
+}
 
+form {
+  margin-top: 20px;
 }
 
 button.mdl-button {
