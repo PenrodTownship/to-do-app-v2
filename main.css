@@ -1,4 +1,9 @@
-header h1 {
+h1 {
   font-weight: bold;
-  color: rgba(255, 165, 0, 0.9);
+  font-size: 2em;
+
+}
+
+button.mdl-button {
+  margin-left: 10px;
 }
