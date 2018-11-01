@@ -95,14 +95,55 @@ body {
 }
 
 h1 {
-  font-weight: bold;
+  font-family: "SF Display", Helvetica, sans-serif;
+  font-weight: 600;
   font-size: 2em;
 }
 
 form {
-  margin-top: 20px;
+  margin: 20px 0;
+}
+
+label {
+  display: none;
+}
+
+#newToDoText {
+  width: 400px;
+  height: 30px;
+  border: 2px solid #4055B2;
+  border-radius: 4px;
+}
+
+input, textarea {
+  color: white;
+}
+
+input:focus {
+  background-color: white;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 1.25em;
+  padding-left: 7px;
 }
 
 button.mdl-button {
   margin-left: 10px;
+  font-family: "SF Text", Helvetica, sans-serif;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li button {
+  margin-left: 10px;
+  font-family: "SF Text", Helvetica, sans-serif;
+}
+
+li input {
+  margin-left: 5px;
 }

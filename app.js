@@ -18,7 +18,7 @@ function onReady() {
     // create a delete button
     let deleteButton = document.createElement('button')
 
-    deleteButton.innerHTML = 'delete';
+    deleteButton.innerHTML = 'Delete';
 
 
     // set the input's type to checkbox
