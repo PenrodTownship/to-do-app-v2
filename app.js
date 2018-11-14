@@ -1,5 +1,6 @@
 function onReady() {
-  let id = toDos.length || 0;
+  let id = 0;
+  let toDos = [];
   const addToDoForm = document.getElementById('addToDoForm');
   const newToDoText = document.getElementById('newToDoText');
 
@@ -7,7 +8,7 @@ function onReady() {
     toDos.push({
       title: newToDoText.value,
       complete: false,
-      id: ++id
+      id: id++
     });
   }
 
